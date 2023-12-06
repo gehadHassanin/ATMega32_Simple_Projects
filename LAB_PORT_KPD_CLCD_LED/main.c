@@ -8,15 +8,15 @@
 
 /*! Include compiler types header                                             */
 
-/*     include LIP Layer   */
+/*     include LIP files   */
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
 
-/*     include MCAL Layer   */
+/*     include MCAL files   */
 #include "DIO_interface.h"
 #include "PORT_interface.h"
 
-/*     include HAL Layer   */
+/*     include HAL files   */
 #include "LED_interface.h"
 #include "KPD_interface.h"
 #include "CLCD_interface.h"
@@ -26,13 +26,13 @@
 /*  Definition of leds  */
 LED_Type_t leds[8] = {
 	                {LED_PORTC, LED_PIN0, ACTIVE_HIGH},
-					{LED_PORTC, LED_PIN1, ACTIVE_HIGH},
-					{LED_PORTC, LED_PIN2, ACTIVE_HIGH},
-					{LED_PORTC, LED_PIN3, ACTIVE_HIGH},
+			{LED_PORTC, LED_PIN1, ACTIVE_HIGH},
+			{LED_PORTC, LED_PIN2, ACTIVE_HIGH},
+			{LED_PORTC, LED_PIN3, ACTIVE_HIGH},
 	                {LED_PORTC, LED_PIN4, ACTIVE_HIGH},
-					{LED_PORTC, LED_PIN5, ACTIVE_HIGH},
-					{LED_PORTC, LED_PIN6, ACTIVE_HIGH},
-					{LED_PORTC, LED_PIN7, ACTIVE_HIGH}
+			{LED_PORTC, LED_PIN5, ACTIVE_HIGH},
+			{LED_PORTC, LED_PIN6, ACTIVE_HIGH},
+			{LED_PORTC, LED_PIN7, ACTIVE_HIGH}
 } ;
 
 /*********************************************/
